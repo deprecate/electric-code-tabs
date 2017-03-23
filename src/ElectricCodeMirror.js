@@ -68,6 +68,7 @@ class CodeTabs extends State {
   renderTabs_(data) {
     let container = dom.buildFragment('<div class="tabContainer"></div>');
     let tabsComponent = new Tabs({
+      elementClasses: 'nav-code-tabs',
       tabs: data
     }, container);
 
