@@ -20,7 +20,7 @@ class CodeTabs extends State {
         label: this.getTabLabelFromElement_(element),
         element: element
       });
-      if (!dom.hasClass(element.nextSibling, this.className)) {
+      if (!dom.hasClass(element.nextElementSibling, this.className)) {
         if(tabGroupsData.length > 1) {
           this.renderTabs_(tabGroupsData);
         }
