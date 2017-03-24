@@ -21,6 +21,12 @@
 	<script src="../node_modules/codemirror/lib/codemirror.js"></script>
 	<script src="../build/globals/electric-code-mirror.js"></script>
 
+	<script src="../node_modules/codemirror/mode/clike/clike.js"></script>
+	<script src="../node_modules/codemirror/mode/css/css.js"></script>
+	<script src="../node_modules/codemirror/mode/javascript/javascript.js"></script>
+	<script src="../node_modules/codemirror/mode/soy/soy.js"></script>
+	<script src="../node_modules/codemirror/mode/swift/swift.js"></script>
+	<script src="../node_modules/codemirror/mode/xml/xml.js"></script>
 </head>
 <body>
 
@@ -40,22 +46,42 @@
 
 					<div class="docs">
 						<div class="code-container">
-							<pre>
-<code class="code" data-mode="javascript" ref="code">
-var hi = function() {
-	console.log('Hello, World!');
-};
-</code>
-							</pre>
+							<pre><code class="code" data-mode="text/html" ref="code">&lt;html&gt;
+	&lt;body&gt;
+		&lt;h1&gt;Hello World&lt;/h1&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
 						</div>
 						<div class="code-container">
-							<pre>
-<code class="code" data-mode="javascript" ref="code">
-var hi = function() {
-	console.log('Hello, World!!!!!!');
-};
-</code>
-							</pre>
+							<pre><code class="code" data-mode="css" ref="code">body:before {
+    content: "Hello World";
+}</code></pre>
+						</div>
+						<div class="code-container">
+							<pre><code class="code" data-mode="javascript" ref="code">console.log("Hello, World!");</code></pre>
+						</div>
+						<div class="code-container">
+							<pre><code class="code" data-mode="application/json" ref="code">{
+	"hello": "world"
+}</code></pre>
+						</div>
+						<div class="code-container">
+							<pre><code class="code" data-mode="swift" ref="code">println("Hello, world!")</code></pre>
+						</div>
+						<div class="code-container">
+							<pre><code class="code" data-mode="text/x-java" ref="code">class HelloWorld {
+  static public void main(String args[]) {
+    System.out.println("Hello World!");
+  }
+}</code></pre>
+						</div>
+						<div class="code-container">
+							<pre><code class="code" data-mode="soy" ref="code">/**
+ *
+ */
+{template .helloWorld}
+  Hello world!
+{/template}</code></pre>
 						</div>
 					</div>
 

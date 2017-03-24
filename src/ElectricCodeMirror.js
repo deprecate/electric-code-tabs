@@ -115,7 +115,11 @@ CodeTabs.STATE = {
 	 * @default {}
 	 */
   dictionary: {
-    value: {}
+    value: {
+    	"text/html": "HTML",
+    	"text/x-java": "Java",
+    	"application/json": "JSON"
+    }
   }
 };
 
