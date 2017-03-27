@@ -8,8 +8,8 @@
     "node": ">=0.12.0",
     "npm": ">=3.0.0"
   },
-  "main": "lib/ElectricCodeMirror.js",
-  "jsnext:main": "src/ElectricCodeMirror.js",
+  "main": "lib/ElectricCodeTabs.js",
+  "jsnext:main": "src/ElectricCodeTabs.js",
   "files": [
     "lib",
     "src",
