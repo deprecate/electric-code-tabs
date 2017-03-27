@@ -1,9 +1,7 @@
 'use strict';
 
-import Component from 'metal-component';
 import Tabs from 'metal-tabs';
 import dom from 'metal-dom';
-import { hasClass, buildFragment } from 'metal-dom';
 import State from 'metal-state';
 
 /**
@@ -91,7 +89,7 @@ class CodeTabs extends State {
   show_(element) {
     dom.removeClasses(element, 'hide');
   }
-};
+}
 
 /**
  * State definition.
@@ -116,9 +114,9 @@ CodeTabs.STATE = {
 	 */
   dictionary: {
     value: {
-    	"text/html": "HTML",
-    	"text/x-java": "Java",
-    	"application/json": "JSON"
+    	'text/html': 'HTML',
+    	'text/x-java': 'Java',
+    	'application/json': 'JSON'
     }
   }
 };
