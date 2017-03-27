@@ -1,4 +1,4 @@
-# metal-electric-code-mirror
+# electric-code-tabs
 
 Renders code mirror on Electric
 

@@ -1,9 +1,9 @@
 {
-  "name": "metal-electric-code-mirror",
+  "name": "electric-code-tabs",
   "version": "0.0.0",
   "description": "Renders code mirror on Electric",
   "license": "BSD",
-  "repository": "fernandosouza/metal-electric-code-mirror",
+  "repository": "electricjs/electric-code-tabs",
   "engines": {
     "node": ">=0.12.0",
     "npm": ">=3.0.0"
